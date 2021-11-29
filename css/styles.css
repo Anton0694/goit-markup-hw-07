@@ -575,7 +575,7 @@ img {
 .social-links-boxes:last-child {
 	margin-right: 0;
 }
-.social-links {
+.social-icons-list {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 30px;
@@ -826,16 +826,16 @@ img {
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__social-list {
+.footer__social {
 	margin-left: 70px;
 	align-items: baseline;
 }
 
-.social-links-footer {
+.footer__social-list {
 	margin-top: 20px;
 }
 
-.social-links-form {
+.footer__social-form {
 	display: inline-block;
 	margin-top: 20px;
 }
@@ -865,7 +865,7 @@ img {
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn {
+.footer__social-btn {
 	margin-left: 12px;
 	width: 200px;
 	height: 50px;
@@ -875,7 +875,7 @@ img {
 	border: 0;
 }
 
-.email-field {
+.footer__social-input--email {
 	width: 358px;
 	height: 50px;
 	padding-left: 16px;
@@ -887,7 +887,7 @@ img {
 	color: var(--dark-side-color);
 }
 
-.sign {
+.footer__sign-text {
 	font-style: 400;
 	font-weight: 700;
 	font-size: 16px;
@@ -898,11 +898,11 @@ img {
 	color: var(--dark-side-color);
 }
 
-.sign-icon {
+.footer__sign-icon {
 	align-self: center;
 }
 
-.sign-box {
+.footer__sign-box {
 	display: flex;
 	justify-content: center;
 }
